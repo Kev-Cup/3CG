@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a7cff, #1bff49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+a {
+    display: block;
+    margin: 15px 0;
+    padding: 12px;
+    background: white;
+    color: #0a3cff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+a:hover {
+    background: #e0e0e0;
+    transform: scale(1.05);
+}
